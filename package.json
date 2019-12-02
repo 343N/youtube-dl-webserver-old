@@ -1,0 +1,14 @@
+{
+  "name": "youtube-dl-webserver",
+  "version": "1.0.0",
+  "description": "youtube-dl web server w/ front-end",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "ws": "^7.2.0"
+  },
+  "author": "343N",
+  "license": "ISC"
+}

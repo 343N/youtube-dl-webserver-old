@@ -1,8 +1,0 @@
-{
-    "port": 80,
-    "url": "youtube-dl",
-    "blacklist": {},
-    "videodir": "youtube-dl",
-    "httpFileLocation": "index.html",
-    "sessionLength": 60
-}
