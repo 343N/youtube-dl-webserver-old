@@ -1,5 +1,8 @@
 {
     "port": 80,
     "baseURL": "/youtube-dl",
-    "filedir": "/videos"
+    "filedir": "/videos",
+    "maxsizeMB": 1024,
+    "timeoutHrs": 168,
+    "sessionTokenLength": 12
 }

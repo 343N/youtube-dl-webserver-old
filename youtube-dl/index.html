@@ -16,6 +16,9 @@
         </div>
     </div>
     <main>
+        <!-- <div aria-live="polite" aaria-atomic="true" style="position relative" -->
+
+       
         <div class="jumbotron text-center dark">
             <h1 class="display-4">Download any video from any site.</h1>
             <p class="lead">
@@ -28,38 +31,70 @@
         <div class="container text-center">
             <div class="row">
                 <div class="col">
-                    <h3>Enter video links here.</h3>
+                    <h4>Enter video links here.</h4>
                     <p>Separate each link with a new line.</p>
 
-                    <textarea style="width:100%; height: 200px;"></textarea>
-                    <button type="button" class="btn btn-primary align-right">Download</button>
+                    <textarea id="linkfield" style="width:100%; height: 200px;">https://www.youtube.com/watch?v=xrYvjvTwG3o</textarea>
+                    <button id="linkfield" type="button" class="btn btn-primary align-right">Download</button>
                 </div>
 
-                <div class="col">
-                    <h3>Your current and previous downloads will appear here:
-                    </h3>
+                <div class="col" id="previousSessionData">
+                    <h4>Your current and previous downloads will appear here:
+                    </h4>
 
-                    <!-- <p>You have no previous downloads!</p> -->
-                    <div class="card mx-auto" style="width: 18rem;">
-                        <img class="card-img-top" style="background-color: grey; width: 100%; height: 200px;" src="" alt="">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text"></p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <!-- <div class="card mx-auto" style="width: 18rem;">
+                        <video class="card-img-top" style="background-color: grey; width: 100%; height: 200px;">
+                        </video>
+                        <div class="card-body text-left">
+                            <h5 class="card-title">Video Title</h5>
+                            <p class="card-text">Duration: 4:15<BR>Size: 17.3mb</p>
+                            <a href="#" class="btn btn-primary">Download</a>
+                            <a href="#" class="btn btn-danger">Delete</a>
                         </div>
-                    </div>
+                    </div> -->
+                    <!-- <p>You have no previous downloads!</p> -->
+
                 </div>
             </div>
         </div>
 
+
+        <!-- 
+
+            
+            
+            TOAST SHIT
+
+
+
+         -->
+         <div id="TOASTCONTAINER" 
+         style="min-height: 100px; position:fixed; width: 20vw; top: 0; right: 0px; margin: 3rem; background-color: rgba(0,0,0,0.2)"></div>
+
+
     </main>
+    <!-- 
+
+
+        SCRIPTS N SHIT
+
+
+    -->
+    <script src="youtube-dl/index.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
-    </script>
+        </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
         integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
-    </script>
+        </script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+        </script>
+    <script>
+
+
+
+
+
     </script>
 </body>
